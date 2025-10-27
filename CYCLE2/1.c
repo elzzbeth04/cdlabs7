@@ -6,6 +6,7 @@
     #define MAX_TOKEN_LEN 100
 
     // List of keywords
+
     char *keywords[] = {"int", "float", "if", "else", "while", "return"};
     int keywordCount = 6;
 
@@ -16,7 +17,7 @@
                 return 1;
         }
         return 0;
-    }
+    } 
 
     // Function to recognize tokens
     void lexicalAnalyzer(FILE *fp) {
